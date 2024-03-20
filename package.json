@@ -1,0 +1,20 @@
+{
+  "name": "secret-castle-auth",
+  "version": "1.0.7",
+  "description": "Authentication library for managing secrets securely.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devlaveer/secret-castle-auth"
+  },
+  "keywords": ["authentication", "security", "secrets"],
+  "license": "MIT",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "bcrypt": "^5.0.1",
+    "passport": "^0.5.2"
+  }
+}
